@@ -1,11 +1,12 @@
-COMMIT:
+# COMMIT steps:
 Save all 
 Scource control (ctrl shift g)
 message
 commit 
-notes
-close notes
-sync.... i think
+yes
+sync changes
+ok.
+DONE
 
 
 # Starter-KitV3
