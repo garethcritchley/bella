@@ -1,0 +1,21 @@
+TODO lists
+
+main
+    update colour 33677F
+
+Services:
+    update contact to "services"
+    add services list
+
+index:
+    reduce main page services list
+    make main page serices links
+
+puppers:
+    add instagram to puppers
+    get images from instagram stries
+    fix puppers images
+
+
+
+
