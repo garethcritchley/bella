@@ -17,5 +17,9 @@ puppers:
     fix puppers images
 
 
-
+taken from critical css, card and big card '.services' bordering for cards
+    border-top: 0.375em solid var(--primary);
+    border-left: 0.375em solid var(--primary);
+    border-right: 0.375em solid var(--primary);
+    border-bottom: 0.375em solid var(--primary);
 
