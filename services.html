@@ -33,11 +33,13 @@
     <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-700.woff2" crossorigin>
 
     <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/columnbuild.css">
     <link rel="stylesheet" href="/css/contact.css">
     <link rel="stylesheet" href="/css/dark.css">
 
     <!--Put analytics tag here at the bottom to prevent it from render blocking-->
 
+    
     <title>Bella's Mobile Dog Spa | Sutherland Shire Sydney</title>
 </head>
 <body>
@@ -97,7 +99,7 @@
         <!-- ============================================ -->
     
         <section id="int-hero">
-            <h1 id="home-h">Our Services</h1>
+            <h1 id="home-h">Full Catalogue of Services & Prices</h1>
             <picture>
                 <source media="(max-width: 600px)" srcset="/images/bucketpooch-m.png">
                 <source media="(min-width: 601px)" srcset="/images/bucketpooch.png">
@@ -106,70 +108,211 @@
         </section>
 
         <!-- ============================================ -->
-        <!--                    FORM                      -->
+        <!--              Services Catalogue              -->
         <!-- ============================================ -->
-
-        <section id="form">
-            <div class="left-section">
-                <h2 class="title">Send a Message</h2>
-                <p>If you have any questions or concerns please feel free to reach out to us.  We respond to every call and email.</p>
-                <form id="contact" name="Contact Form2" method="post" data-netlify="true">
-                        <div class="input-group">
-                            <label for="name">Full Name</label>
-                            <input id="name" aria-label="name" class="input1" name="name" placeholder="Full Name" type="text" tabindex="1" required>
-                            <div aria-hidden="true" class="hover-box"></div>
-                        </div>
-
-                        <div class="input-group">
-                            <label for="email">Email</label>
-                            <input id="email" aria-label="email" class="input1 right" name="email" placeholder="Email Address" type="email" tabindex="2" required>
-                            <div aria-hidden="true" class="hover-box"></div>
-                        </div>
-
-                        <div class="input-group">
-                            <label for="phone">Phone</label>
-                            <input id="phone" aria-label="phone number" class="input1" name="phone" placeholder="Phone Number" type="tel" tabindex="3" required>
-                            <div aria-hidden="true" class="hover-box"></div>
-                        </div>
-                        <div class="input-group">
-                            <label for="location">Location</label>
-                            <input id="location" aria-label="location" class="input1 right" name="location" placeholder="Your Location" type="text" tabindex="4" required>
-                            <div aria-hidden="true" class="hover-box"></div>
-                        </div>
-                        <div class="input-group">
-                            <label for="how">How did you hear about us</label>
-                            <input id="how" aria-label="how did you hear about us" name="hear" placeholder="How Did You Hear About Us" type="text" tabindex="5" required>
-                            <div aria-hidden="true" class="hover-box"></div>
-                        </div>
-                        <div class="input-group textarea">
-                            <label for="message">Message</label>
-                            <textarea id="message" aria-label="write your message" name="message" placeholder="Tell us about what you need help with" tabindex="6" required></textarea>
-                            <div aria-hidden="true" class="hover-box"></div>
-                        </div>
-                    <p class="form-submit">
-                        <button name="submit" type="submit" id="contact-submit" class="button-solid" data-submit="...Sending">Submit</button>
-                    </p>
-                </form>
-            </div>
-            <div class="contact-right">
-                <div class="info-group">
-                    <span class="heading">Mobile</span>
-                    <a class="info" href="tel:0427 722 305">0427 722 305</a>
-                </div>
-                <div class="info-group">
-                    <span class="heading">Email</span>
-                    <a class="info" href="mailto:email@email.com">Click to Email</a>
-                </div>
-                <div class="info-group">
-                    <span class="heading">Instagram</span>
-                    <span class="info"> <a href="https://www.instagram.com/bellasmobiledogspa/">@bellasmobiledogspa</a></span>
-                </div>
-                <div class="info-group">
-                    <span class="heading">Facebook</span>
-                    <span class="info last"> <a href="https://www.facebook.com/profile.php?id=61571362782811">Bella’s mobile dog spa</a></span>
-                </div>
-            </div>
+         
+        <br>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="column" >
+                        <br>
+                        <h1 style="color: #33677F;">Basic Wash & Blow Dry</h1>
+                        <p>Coat Specific Shampoo</p>
+                        <p>Conditioner</p>
+                        <p>Blow Dry</p>
+                        <p>Full Body Brush</p>
+                        <p>Doggie Cologne</p>
+                        <br>
+                        <h2>Prices</h2>
+                        <table class="styled-table">
+                            <colgroup>
+                                <col span="1" style="background-color: #33677F;"
+                            </colgroup>
+                            <thead>
+                                <tr style="color: #33677F;">
+                                    <th style="color: white; text-align: left;">Dog Size</th>
+                                    <th>Short Coat</th>
+                                    <th>Long Coat</th>
+                                </tr>
+                            </thead>
+                            <tbody style="text-align: center; color:#33677F">
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Small Dog (Up to 10kgs)</b></td>
+                                    <td>$60</td>
+                                    <td>$70</td>
+                                </tr>
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Medium Dog (11 to 20kgs)</b></td>
+                                    <td>$70</td>
+                                    <td>$80</td>
+                                </tr>
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Large Dog (21 to 30kgs)</b></td>
+                                    <td>$80</td>
+                                    <td>$90</td>
+                                </tr>
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Extra Large Dog (31kgs+)</b></td>
+                                    <td>$90</td>
+                                    <td>$100</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                    </div>
+                    <div class="column">
+                        <br>
+                        <h1 style="color: #33677F;">Deluxe Wash and Blow Dry</h1>
+                        <p>Coat Specific Shampoo</p>
+                        <p>Conditioner</p>
+                        <p>Eye Wipe</p>
+                        <p>Ear Clean</p>
+                        <p>Blow Dry</p>
+                        <p>Full Body Brush</p>
+                        <p>Nail Trim</p>
+                        <p>Paw Balm</p>
+                        <p>Doggie Cologne</p>
+                        <br>
+                        <h2>Prices</h2>
+                        <table class="styled-table">
+                            <colgroup>
+                                <col span="1" style="background-color: #33677F;"
+                            </colgroup>
+                            <thead>
+                                <tr style="color: #33677F;">
+                                    <th style="color: white; text-align: left;">Dog Size</th>
+                                    <th>Short Coat</th>
+                                    <th>Long Coat</th>
+                                </tr>
+                            </thead>
+                            <tbody style="text-align: center; color:#33677F">
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Small Dog (Up to 10kgs)</b></td>
+                                    <td>$75</td>
+                                    <td>$85</td>
+                                </tr>
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Medium Dog (11 to 20kgs)</b></td>
+                                    <td>$85</td>
+                                    <td>$95</td>
+                                </tr>
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Large Dog (21 to 30kgs)</b></td>
+                                    <td>$95</td>
+                                    <td>$105</td>
+                                </tr>
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Extra Large Dog (31kgs+)</b></td>
+                                    <td>$105</td>
+                                    <td>$115</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>  
+                    </div> 
+                </div>            
+            </div> 
         </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="column">
+                        <br>
+                        <h1 style="color: #33677F;">Basic Wash & Blow Dry</h1>
+                        <p>Coat Specific Shampoo</p>
+                        <p>Conditioner</p>
+                        <p>Blow Dry</p>
+                        <p>Full Body Brush</p>
+                        <p>Doggie Cologne</p>
+                        <br>
+                        <h2>Prices</h2>
+                        <table class="styled-table">
+                            <colgroup>
+                                <col span="1" style="background-color: #33677F;"
+                            </colgroup>
+                            <thead>
+                                <tr style="color: #33677F;">
+                                    <th style="color: white; text-align: left;">Dog Size</th>
+                                    <th>Short Coat</th>
+                                    <th>Long Coat</th>
+                                </tr>
+                            </thead>
+                            <tbody style="text-align: center; color:#33677F">
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Small Dog (Up to 10kgs)</b></td>
+                                    <td>$60</td>
+                                    <td>$70</td>
+                                </tr>
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Medium Dog (11 to 20kgs)</b></td>
+                                    <td>$70</td>
+                                    <td>$80</td>
+                                </tr>
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Large Dog (21 to 30kgs)</b></td>
+                                    <td>$80</td>
+                                    <td>$90</td>
+                                </tr>
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Extra Large Dog (31kgs+)</b></td>
+                                    <td>$90</td>
+                                    <td>$100</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                    </div>
+                    <div class="column">
+                        <br>
+                        <h1 style="color: #33677F;">Basic Wash & Blow Dry</h1>
+                        <p>Coat Specific Shampoo</p>
+                        <p>Conditioner</p>
+                        <p>Blow Dry</p>
+                        <p>Full Body Brush</p>
+                        <p>Doggie Cologne</p>
+                        <br>
+                        <h2>Prices</h2>
+                        <table class="styled-table">
+                            <colgroup>
+                                <col span="1" style="background-color: #33677F;"
+                            </colgroup>
+                            <thead>
+                                <tr style="color: #33677F;">
+                                    <th style="color: white; text-align: left;">Dog Size</th>
+                                    <th>Short Coat</th>
+                                    <th>Long Coat</th>
+                                </tr>
+                            </thead>
+                            <tbody style="text-align: center; color:#33677F">
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Small Dog (Up to 10kgs)</b></td>
+                                    <td>$60</td>
+                                    <td>$70</td>
+                                </tr>
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Medium Dog (11 to 20kgs)</b></td>
+                                    <td>$70</td>
+                                    <td>$80</td>
+                                </tr>
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Large Dog (21 to 30kgs)</b></td>
+                                    <td>$80</td>
+                                    <td>$90</td>
+                                </tr>
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Extra Large Dog (31kgs+)</b></td>
+                                    <td>$90</td>
+                                    <td>$100</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>   
+                    </div> 
+                </div>            
+            </div> 
+        </section>
+        <br>
 
     </main>
 
