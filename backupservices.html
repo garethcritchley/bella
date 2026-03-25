@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Swap our for actual link-->
-    <link rel="canonical" href="https://www.company.com">
+    <link rel="canonical" href="https://www.company.com/services">
 
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -20,7 +20,6 @@
     <meta property="og:image:secure_url" content="/images/social.jpg"/>
 
     <!--Favicons-->
-    <!--Use https://realfavicongenerator.net/ to generate and download your favicons-->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v1">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -29,24 +28,19 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Preload -->
-    <link rel="preload" as="image" href="/images/bucketpooch-m.png">
+    <link rel="preload" as="image" href="/images/logo.png">
     <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-regular.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-700.woff2" crossorigin>
 
-    <link rel="stylesheet" href="/css/critical.css"> <!-- Only above the fold css-->
     <link rel="stylesheet" href="/css/root.css">
-    <link rel="stylesheet" href="/css/dark.css">
     <link rel="stylesheet" href="/css/columnbuild.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/dark.css">
 
-    <!--Defer loading the whole page css-->
-    <link rel="stylesheet" href="/css/local.css" media="print" onload="this.media='all'; this.onload=null;">
+    <!--Put analytics tag here at the bottom to prevent it from render blocking-->
 
-    <!--If the user has javascript disbaled, load this stylesheet-->
-    <noscript>
-        <link rel="stylesheet" href="/css/local.css">
-    </noscript>
-
-    <title>Bellas Mobile Dog Spa | Sutherland Shire Sydney</title>
+    
+    <title>Bella's Mobile Dog Spa | Sutherland Shire Sydney</title>
 </head>
 <body>
     <!--Screen reader skip main nav-->
@@ -67,10 +61,10 @@
             <!--Logo-->
             <a class="logo" aria-label="click to go to home page" href="/index.html">
                 <!--Light Colored Logo, remove .dark image tag and the .light class if you don't have a dark and light version -->
-                <img class="light" aria-hidden="true" src="/images/logo-light.png" decoding="async" alt="logo" width="400" height="400">
+                <img class="light" aria-hidden="true" src="/images/logo-light.png" decoding="async" alt="logo" width="221" height="66">
 
                 <!--Dark Colored Logo-->
-                <img class="dark" aria-hidden="true" src="/images/logo.png" decoding="async" loading="lazy" alt="logo" width="400" height="400">
+                <img class="dark" aria-hidden="true" src="/images/logo.png" decoding="async" loading="lazy" alt="logo" width="221" height="66">
             </a>
 
             <!--Main Nav-->
@@ -80,6 +74,7 @@
                     <li><a class="active" href="/services.html">Services</a></li>
                     <li><a href="/puppers.html">Puppers</a></li>
                     <li><a href="/terms.html">Terms and Conditions</a></li>
+
                 </ul>
             </nav>
 
@@ -98,85 +93,37 @@
     </div>
 
     <main id="main">
+
         <!-- ============================================ -->
         <!--                    LANDING                   -->
         <!-- ============================================ -->
     
-        <section id="hero">
-            <div class="hero-content">
-                <div class="heroText">
-                    <h1 id="home-h">Services</h1>
-                </div>
-            </div>
+        <section id="int-hero">
+            <h1 id="home-h">Full Catalogue of Services & Prices</h1>
             <picture>
                 <source media="(max-width: 600px)" srcset="/images/bucketpooch-m.png">
                 <source media="(min-width: 601px)" srcset="/images/bucketpooch.png">
-                <img aria-hidden="true" decoding="async" src="/images/bucketpooch.png" alt="BUCKET DOGGO" width="275" height="132">
-             </picture>
+                <img aria-hidden="true" loading="lazy" decoding="async" src="/images/bucketpooch.png" alt="" width="400" height="662">
+            </picture>
         </section>
 
         <!-- ============================================ -->
-        <!--                  Services                    -->
+        <!--              Services Catalogue              -->
         <!-- ============================================ -->
-
-        <section id="services" class="services">
-            <!-- Get Icons From flaticon.com -->
-            <div class="bigCard">
-                <picture>
-                    <img aria-hidden="true" decoding="async" src="/images/paw2.png" alt="appliance" width="48" height="48">
-                </picture>
-                <h2>Basic Wash & Blow Dry</h2>
-                <p>
-                    Coat specific shampoo<br>Conditioner<br>Blow dry<br>Full body brush<br>Doggie cologne.
-                </p>
-            <br>
-            <h2>Prices</h2>
-                        <table class="styled-table">
-                            <colgroup>
-                                <col span="1" style="background-color: #33677F;"
-                            </colgroup>
-                            <thead>
-                                <tr style="color: #33677F;">
-                                    <th style="color: white; text-align: left;">Dog Size</th>
-                                    <th>Short Coat</th>
-                                    <th>Long Coat</th>
-                                </tr>
-                            </thead>
-                            <tbody style="text-align: center; color:#33677F">
-                                <tr>
-                                    <td style="color: white; text-align: left;"><b>Small Dog (Up to 10kgs)</b></td>
-                                    <td>$60</td>
-                                    <td>$70</td>
-                                </tr>
-                                <tr>
-                                    <td style="color: white; text-align: left;"><b>Medium Dog (11 to 20kgs)</b></td>
-                                    <td>$70</td>
-                                    <td>$80</td>
-                                </tr>
-                                <tr>
-                                    <td style="color: white; text-align: left;"><b>Large Dog (21 to 30kgs)</b></td>
-                                    <td>$80</td>
-                                    <td>$90</td>
-                                </tr>
-                                <tr>
-                                    <td style="color: white; text-align: left;"><b>Extra Large Dog (31kgs+)</b></td>
-                                    <td>$90</td>
-                                    <td>$100</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                <br><br><br><br>
-
-
-            </div>
-            <div class="bigCard">
-                <picture>
-                    <img aria-hidden="true" decoding="async" src="/images/paw2.png" alt="appliance" width="48" height="48">
-                </picture>
-                <h2>Deluxe Wash & Blow Dry</h2>
-                <p>
-                    Coat specific shampoo<br>Conditioner<br>Eye wipe<br>Ear clean<br>Blow dry<br>Full body brush<br>Nail trim<br>Paw balm<br>Doggie cologne.
-                </p>
+         
+        <br>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="column" >
+                        <br>
+                        <h1 style="color: #33677F;">Basic Wash & Blow Dry</h1>
+                        <p>Coat Specific Shampoo</p>
+                        <p>Conditioner</p>
+                        <p>Blow Dry</p>
+                        <p>Full Body Brush</p>
+                        <p>Doggie Cologne</p>
+                        <br>
                         <h2>Prices</h2>
                         <table class="styled-table">
                             <colgroup>
@@ -212,22 +159,74 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <br><br><br><br><br>
-                
-            </div>
-
+                        <br>
+                    </div>
+                    <div class="column">
+                        <br>
+                        <h1 style="color: #33677F;">Deluxe Wash and Blow Dry</h1>
+                        <p>Coat Specific Shampoo</p>
+                        <p>Conditioner</p>
+                        <p>Eye Wipe</p>
+                        <p>Ear Clean</p>
+                        <p>Blow Dry</p>
+                        <p>Full Body Brush</p>
+                        <p>Nail Trim</p>
+                        <p>Paw Balm</p>
+                        <p>Doggie Cologne</p>
+                        <br>
+                        <h2>Prices</h2>
+                        <table class="styled-table">
+                            <colgroup>
+                                <col span="1" style="background-color: #33677F;"
+                            </colgroup>
+                            <thead>
+                                <tr style="color: #33677F;">
+                                    <th style="color: white; text-align: left;">Dog Size</th>
+                                    <th>Short Coat</th>
+                                    <th>Long Coat</th>
+                                </tr>
+                            </thead>
+                            <tbody style="text-align: center; color:#33677F">
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Small Dog (Up to 10kgs)</b></td>
+                                    <td>$75</td>
+                                    <td>$85</td>
+                                </tr>
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Medium Dog (11 to 20kgs)</b></td>
+                                    <td>$85</td>
+                                    <td>$95</td>
+                                </tr>
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Large Dog (21 to 30kgs)</b></td>
+                                    <td>$95</td>
+                                    <td>$105</td>
+                                </tr>
+                                <tr>
+                                    <td style="color: white; text-align: left;"><b>Extra Large Dog (31kgs+)</b></td>
+                                    <td>$105</td>
+                                    <td>$115</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>  
+                    </div> 
+                </div>            
+            </div> 
         </section>
-                <section id="services" class="services">
-            <!-- Get Icons From flaticon.com -->
-            <div class="bigCard">
-                <picture>
-                    <img aria-hidden="true" decoding="async" src="/images/paw2.png" alt="appliance" width="48" height="48">
-                </picture>
-                <h2>Deluxe Wash<br>& Tidy</h2>
-                <p>
-                    Coat specific shampoo<br>Conditioner<br>Eye wipe<br>Ear clean<br>Blow dry<br>Full body brush<br>Nail trim<br>Shave paw pads/hygiene areas<br>Tidy up face, ears, feet & tail<br>Paw balm<br>Doggie cologne.
-                </p>
-                                        <h2>Prices</h2>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="column">
+                        <br>
+                        <h1 style="color: #33677F;">Basic Wash & Blow Dry</h1>
+                        <p>Coat Specific Shampoo</p>
+                        <p>Conditioner</p>
+                        <p>Blow Dry</p>
+                        <p>Full Body Brush</p>
+                        <p>Doggie Cologne</p>
+                        <br>
+                        <h2>Prices</h2>
                         <table class="styled-table">
                             <colgroup>
                                 <col span="1" style="background-color: #33677F;"
@@ -262,16 +261,18 @@
                                 </tr>
                             </tbody>
                         </table>
-            </div>
-            <div class="bigCard">
-                <picture>
-                    <img aria-hidden="true" decoding="async" src="/images/paw2.png" alt="appliance" width="48" height="48">
-                </picture>
-                <h2>Complete Groom<br>Single Length</h2>
-                <p>
-                    Coat specific shampoo<br>Conditioner<br>Eye wipe<br>Ear clean<br>Blow dry<br>Full body brush<br>Nail trim<br>Shave paw pads & hygiene areas<br>Tidy up face, ears, feet & tail<br>Single length body shave<br>Paw balm<br>Doggie cologne.
-                </p>
-                                        <h2>Prices</h2>
+                        <br>
+                    </div>
+                    <div class="column">
+                        <br>
+                        <h1 style="color: #33677F;">Basic Wash & Blow Dry</h1>
+                        <p>Coat Specific Shampoo</p>
+                        <p>Conditioner</p>
+                        <p>Blow Dry</p>
+                        <p>Full Body Brush</p>
+                        <p>Doggie Cologne</p>
+                        <br>
+                        <h2>Prices</h2>
                         <table class="styled-table">
                             <colgroup>
                                 <col span="1" style="background-color: #33677F;"
@@ -306,33 +307,25 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <br><br>
-            </div>
+                        <br>   
+                    </div> 
+                </div>            
+            </div> 
         </section>
+        <br>
 
-        <!-- ============================================ -->
-        <!--                   put big contact stuff here                      -->
-        <!-- ============================================ -->
-
-
-
-
-        <!-- ============================================ -->
-        <!--             Final Call to Action             -->
-        <!-- ============================================ -->
-
-
+    </main>
 
     <!-- ============================================ -->
-    <!--                     FOOTER                   -->
+    <!--                   Footer                     -->
     <!-- ============================================ -->
 
     <footer id="footer">
         <div class="container">
             <div class="left-section">
-                <a class="logo" href="/index.html"><img loading="lazy" decoding="async" src="/images/logo-light.png" alt="logo" width="1000" height="1000"></a>
+                <a class="logo" href="/index.html"><img loading="lazy" decoding="async" src="/images/logo-light.png" alt="logo" width="264" height="78"></a>
                 <p>
-                    two dogs walk into a bar....
+                    'Everybody wang chun tonight!'.
                 </p>
             </div>
             <div class="right-section">
@@ -343,6 +336,7 @@
                         <li><a href="/services.html">Services</a></li>
                         <li><a href="/puppers.html">Puppers</a></li>
                         <li><a href="/terms.html">Terms & Conditions</a></li>
+
                     </ul>
                     <ul>
                         <li><h2>Contact</h2></li>
@@ -361,7 +355,6 @@
             <a href="https://github.com/garethcritchley" target="_blank" rel="noopener">This Goober</a>
             <span class="copyright"> Copyright 2026 - Present</span></div>
     </footer>
-
 
     <script defer src="/nav.js"></script>
     <script defer src="/dark.js"></script>

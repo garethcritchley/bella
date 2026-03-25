@@ -129,7 +129,7 @@
   }
 }
 /*-- -------------------------- -->
-<---          Services          -->
+<---          CARDS          -->
 <--- -------------------------- -*/
 /* Mobile */
 @media only screen and (min-width: 0em) {
@@ -221,6 +221,118 @@
   }
   .services .card {
     max-width: 22.3125em;
+  }
+}
+/* Dark mode */
+@media only screen and (min-width: 0em) {
+  body.dark-mode #services {
+    background: var(--medium);
+  }
+  body.dark-mode #services picture {
+    background: var(--primaryDark);
+  }
+  body.dark-mode #services h2 {
+    color: #fff;
+    font-weight: bold;
+  }
+}
+
+
+
+
+/*-- -------------------------- -->
+<---          BIG CARDS          -->
+<--- -------------------------- -*/
+/* Mobile */
+@media only screen and (min-width: 0em) {
+  .services {
+    border-radius: 0.3125em;
+    margin: auto;
+    margin-top: -10.4375em;
+    position: relative;
+    z-index: 100;
+    background: #fff;
+    width: 90%;
+    max-width: 82.5em;
+    padding: 3.125em 1.25em;
+    border-top: 0.375em solid var(--primary);
+    -webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+    margin-bottom: 3.125em;
+  }
+  .services .bigCard {
+    display: block;
+    width: 100%;
+    max-width: 22.3125em;
+    margin: auto;
+    margin-bottom: 3.125em;
+  }
+  .services .bigCard:last-of-type {
+    margin-bottom: 0;
+  }
+  .services .bigCard picture {
+    background: var(--primary);
+    width: 5.5em;
+    height: 5.5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+    margin-bottom: 1.4375em;
+    border-radius: 50%;
+  }
+  .services .bigCard picture img {
+    width: 3em;
+    height: 3em;
+  }
+  .services .bigCard h2 {
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.35em;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.65em;
+  }
+  .services .bigCard p {
+    text-align: center;
+    line-height: 1.33333333em;
+    width: 100%;
+    opacity: .7;
+  }
+}
+/* Inbetween */
+@media only screen and (min-width: 768px) {
+  .services {
+    font-size: min(1.8vw, 1em);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 98%;
+  }
+  .services .bigCard {
+    margin: 9990;
+    max-width: 220.3125em;
+  }
+}
+/* Large Desktop */
+@media only screen and (min-width: 1300px) {
+  .services {
+    padding: 3.125em 5em;
+  }
+  .services .bigCard {
+    max-width: 222.3125em;
   }
 }
 /* Dark mode */
