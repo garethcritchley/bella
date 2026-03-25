@@ -4,8 +4,8 @@ genral
     
 
 Services:
-    update contact to "services"
-    add services list
+    extras at bottom
+    contact
 
 index:
     reduce main page services list
