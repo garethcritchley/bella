@@ -1,20 +1,17 @@
 TODO lists
 
-genral
-    
-
+genral:
+    scale up icon on mobile
+        
 Services:
-    extras at bottom
-    contact
 
 index:
-    reduce main page services list
     make main page serices links
 
 puppers:
-    add instagram to puppers
-    get images from instagram stries
-    fix puppers images
+    add instagram to puppers FIX
+    fix puppers images heights
+    fix tri fold pupper issue
 
 
 taken from critical css, card and big card '.services' bordering for cards
