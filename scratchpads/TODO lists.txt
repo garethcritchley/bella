@@ -2,14 +2,14 @@ TODO lists
 
 genral:
     scale up icon on mobile
+    update header footer image when bella sends
         
 Services:
 
 index:
-    make main page serices links
+
 
 puppers:
-    add instagram to puppers FIX
     fix puppers images heights
     fix tri fold pupper issue
 
