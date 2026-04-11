@@ -20,7 +20,7 @@ works with <div class="column"> section*/
 table, th, td {
   border: 5px;
   border-collapse:separate;
-  border-radius:6px;
+  border-radius:8px;
 }
 
 th, td {
