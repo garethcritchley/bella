@@ -1,8 +1,14 @@
 TODO lists
 
 genral:
-    scale up icon on mobile
-    update header footer image when bella sends
+    connect dynabyte < and >
+    rename github  project
+    reconnect to new worker
+    remove DNS from domains
+    add bellasetc.com to worker
+    add cname @ / www
+    add routes to the worker *.bellasetc.com/*
+    potentially add bulk redirect
         
 Services:
 
