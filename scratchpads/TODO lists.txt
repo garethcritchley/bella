@@ -9,6 +9,7 @@ genral:
     add cname @ / www
     add routes to the worker *.bellasetc.com/*
     potentially add bulk redirect
+    test
         
 Services:
 
